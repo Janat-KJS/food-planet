@@ -1,0 +1,56 @@
+.foodContent {
+    max-width: 1300px;
+    height: 400px;
+    margin: 0 auto;
+    margin-top: 10px;
+    display: flex;
+
+}
+
+.foodText{
+    max-width: 430px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 26px;
+    line-height: 42px;
+    display: flex;
+    align-items: center;
+    color: #254F4C;
+    margin-top: 75px;
+}
+
+.foodP {
+    max-width: 430px;
+    height: 80px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    display: flex;
+    align-items: center
+
+}
+
+.foodButton {
+    position: absolute;
+    width: 216px;
+    height: 49px;
+    background: #FF583E;
+    border-radius: 100px;
+    color: white;
+}
+
+.foodImg {
+    width: 508px;
+    height: 359px;
+
+}
+
+.foodPrice {
+    position: absolute;
+    left: 760px;
+    top: 83px;
+
+}
