@@ -41,16 +41,3 @@
     border-radius: 100px;
     color: white;
 }
-
-.foodImg {
-    width: 508px;
-    height: 359px;
-
-}
-
-.foodPrice {
-    position: absolute;
-    left: 760px;
-    top: 83px;
-
-}

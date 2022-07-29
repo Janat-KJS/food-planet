@@ -12,12 +12,12 @@ const Header = () => {
                     <img src={headerLogo} alt=""/>
                 </div>
                 <ul className={styles.headerMenu}>
-                    <li><a href="#" className={styles.headerItem}>Главная</a></li>
+                    <li><a href="#" className={styles.headerItem}><span>Главная</span></a></li>
                     <li><a href="#" className={styles.headerItem}>Меню</a></li>
                     <li><a href="#" className={styles.headerItem}>Доставка</a></li>
                     <li><a href="#" className={styles.headerItem}>Контакты</a></li>
                     <li><img src={headerItemPhone} alt=""/>+996500405988</li>
-                    <li><img className={styles.headerBask} src={headerBask} alt=""/>1</li>
+                    <li><img className={styles.headerBasket} src={headerBask} alt=""/><span>1</span></li>
                 </ul>
             </div>
         </div>

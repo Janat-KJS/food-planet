@@ -1,9 +1,7 @@
 import React from "react";
 import styles from "./FoodIce.module.css"
 import foodLogo from "../../Icons/strelka.svg"
-import foodImg from "../../Img/burger.png"
-import foodImg2 from "../../Img/lce.png"
-import foodPrice from "../../Icons/price.svg"
+import foodImg from "../../Img/burcoc.jpg"
 
 const FoodIce = () => {
     return (
@@ -20,10 +18,6 @@ const FoodIce = () => {
             </div>
             <div className={styles.foodImages}>
                 <img className={styles.foodImg} src={foodImg} alt=""/>
-                <div className={styles.foodPrice}>
-                    <img src={foodPrice} alt=""/>
-                </div>
-                <img className={styles.foodImg2} src={foodImg2} alt=""/>
             </div>
         </div>
 

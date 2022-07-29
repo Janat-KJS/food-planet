@@ -19,7 +19,7 @@
 }
 
 .headerMenu li, select {
-    margin-right: 60px;
+    margin-right: 90px;
     list-style: none;
 }
 
@@ -85,7 +85,7 @@
     position: relative;
 }
 
-.headerBask{
+span {
     color: red;
 }
 
